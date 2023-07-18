@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Physical fitness</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body bgcolor="blue">
+<table border size="0" height="900px" width="1500px" cellspacing="0px">
+<tr bgcolor="#ffff33">
+<td colspan="2" height="100px"><h1><font color="red" size="20px" face="georgio"><center>PHYSICAL FITNESS TRAINING </center></font</h1></td>
+</tr>
+<tr bgcolor="red">
+<th colspan="2" height="40px">
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="">GALLERY<a>
+       <ul> <li><a href="images.html">IMAGES</a></li>
+	      <li><a href="videos.html">VIDEOS</a></li></ul>
+	   </li>
+<li><a href="">SERVICES</a>
+     <ul>
+	 <li><a href="membership.html">MEMBERSHIP</a></li>
+	 <li><a href="fees.html">FEES</a>
+	 <li><a href="demo.html">DEMO</a></li>
+     	 </ul>
+		 </li>
+<li><a href="contact.html">CONTACT</a></li></ul>
+</th>
+</tr>
+<tr>
+<td height="300px" bgcolor=" #ff751a">
+<div class="w1" style="max-width:1050px" style="max-height:250px">
+  <img class="mySlides" src="g1.gif" height="250px"  style="width:100%">
+  <img class="mySlides" src="g4.gif"  height="250px" style="width:100%">
+  <img class="mySlides" src="g2.gif" height="250px" style="width:100%">
+  <img class="mySlides" src="g1.gif" height="250px"  style="width:100%">
+</div>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+</td>
+<td width="400px" bgcolor=" #ff751a">
+<ul width="400px">
+<li><img src="new.gif"/><a href="">EXPERT TRAINER VISIT</a></li>
+<li><img src="new.gif"/><a href="">DEMO CLASSES</a></li>
+<li><img src="new.gif"/><a href="">PROTEIN MATERIALS</a></li>
+<li><img src="new.gif"/><a href="">HOLIDAYS</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+      <td style=background-image:url('8.jpg');">
+	  <marquee>
+	  <img src="1.jpg" height="230px" width="300px">
+	  <img src="2.jpg" height="230px" width="300px">
+	  <img src="3.jpg" height="230px" width="300px">
+	  <img src="4.jpg" height="230px" width="300px">
+	  <img src="5.jpg" height="230px" width="300px">
+	  <img src="6.jpg" height="230px" width="300px"></marquee>
+	  
+	  
+      </td>
+<td bgcolor="#ff751a">
+<video width="320" height="240" controls>
+  <source src="m1.mp4" type="video/mp4">
+</video>
+ </td>
+</tr>
+<tr>
+<td colspan="2" height="250px" bgcolor="red">
+<h2> IMPORTANT LINK &darr;</h2>
+<h4><a>XTREME FITNESS</a></h4>
+<h4><a>GYM</a></h4>
+<h4><a>FITNESS CLUB</a></h4>
+<p style="font-family:timesnewroman;">This site is managed and maintained by  Ajay Singh IT SOLUTUION PVT LTD.</P>
+</td>
+</table>
+</body>
+</html>

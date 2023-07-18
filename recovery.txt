@@ -1,0 +1,61 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body bgcolor="white">
+<table border size="0" height="900px" width="1500px" cellspacing="0px">
+<tr bgcolor="blue">
+<td colspan="2" height="100px"><h1><font color="white" size="20px" face="georgio"><center>PHYSICAL FITNESS TRAINING </center></font</h1></td>
+</tr>
+<tr bgcolor="green">
+<td colspan="2" height="40px">
+<ul>
+<li><a>HOME</a></li>
+<li><a>GALLERY<a>
+       <ul> <li><a>IMAGES</a></li>
+	      <li><a>VIDEOS</a></li></ul>
+	   </li>
+<li><a>SERVICES</a>
+     <ul>
+	 <li><a>MEMBERSHIP</a></li>
+	 <li><a>FEES</a>
+	 <li><a>DISCOUNT</a></li>
+     	 </ul>
+		 </li>
+<li><a>CONTACT</a></li></ul>
+</td>
+</tr>
+<tr bgcolor="darkgrey">
+<td height="250px" bgcolor="maroon">
+<div class="myslides"><marquee direction="left" scrollamount="10">
+<img src=".jpg">
+<img src=".jpg">
+<img src=".jpg">
+<img src=".jpg"/></marquee>
+</div></td>
+<td width="550px" bgcolor="yellow"><marquee direction="up" width="500px" scrollamount="04"><h5><img src="new.gif"/>Class XII Sample Paper</br><img src="new.gif"/>Time Table of Class x </br>
+<img src="new.gif"/>Class X Sample Paper</br>
+<img src="new.gif"/>Identity card is compulsay for Entrance. </br>
+<img src="new.gif"/>All Due Fees must be Submiited Before 15th nov. 
+</h5> </br></marquee> 
+</td>
+</tr>
+<tr bgcolor="white">
+<td><h1><u> Achievements</u> </h1></br>
+<b><img src="new.gif">10 Students are selected for IIT<b></br>
+<b><img src="new.gif">5 students cleared PMT</b></br>
+<b><img src="new.gif">6 Students cleared cLAT</b>
+</td>
+<td bgcolor="white"><b>The principal message </b><img src="p.jpg" width=80px" height="100px";><h6>Since the very inception, manifestation of this thought has been our hallmark. Longing for worldly reaches is quite transitory and treacherous...</h6></td>
+</tr>
+<tr bgcolor="darkgrey">
+<td bgcolor="tomato"><a href="form.html"><img src="userlogin.jpg"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="result.html"><img src="r.jpg"></a>
+</td>
+<td bgcolor="tomato"><marquee><img src="ph.jpg" height="110px" width="60px">&nbsp;&nbsp;&nbsp;&nbsp;<img src="ph1.jpg">&nbsp;&nbsp;&nbsp;&nbsp;<img src="ph2.jpg"></marque></td>
+</tr>
+<tr>
+<td colspan="2" height="50px"><center><h4><font color="red">The website is designed by Ranjana</font></h4></center></td>
+</table>
+</body>
+</html>
